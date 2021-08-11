@@ -24,8 +24,8 @@
         "flarum-extension": {
             "title": "Mixture",
             "icon": {
-                "name": "fas fa-handshake-o",
-                "backgroundColor": "#696969",
+                "name": "fas fa-lemon",
+                "backgroundColor": "#ff9191",
                 "color": "#fff"
             }
         },
