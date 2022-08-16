@@ -8,9 +8,9 @@ return [
     (new Extend\Frontend('forum'))
         ->content(function (Document $document) {
             $document->head[] = '
-            <link href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
-            <script src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
-            <script src="https://unpkg.com/meting@2.0.1/dist/Meting.min.js"></script>
+            <link href="https://cdn.jsdelivr.net/gh/moerio/Mixture@latest/APlayer.min.css">
+            <script src="https://cdn.jsdelivr.net/gh/moerio/Mixture@latest/APlayer.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
             ';
         }),
     (new Extend\Formatter)
