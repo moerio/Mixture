@@ -16,11 +16,11 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
-                '[automusic src={TEXT1?} mini="{URL1?}" autoplay="{URL2?}" loop="{URL3?}" volume="{URL4?}"][/automusic]',
+                '[automusic src="{TEXT1?}" mini="{URL1?}" autoplay="{URL2?}" loop="{URL3?}" volume="{URL4?}"][/automusic]',
                 '<div><meting-js auto="{TEXT1}" mini="{URL1}" autoplay="{URL2}" loop="{URL3}" volume="{URL4}"></meting-js></div>'
             );
             $config->BBCodes->addCustom(
-                '[cloudmusic server={TEXT1?} type="{URL5?}" url="{URL6?}" mini="{URL1?}" autoplay="{URL2?}" loop="{URL3?}" volume="{URL4?}" cover="{URL7?}"][/automusic]',
+                '[cloudmusic server="{TEXT1?}" type="{URL5?}" url="{URL6?}" mini="{URL1?}" autoplay="{URL2?}" loop="{URL3?}" volume="{URL4?}" cover="{URL7?}"][/automusic]',
                 '<div><meting-js server="{TEXT1}" type="{URL5}" url="{URL6}" mini="{URL1}" autoplay="{URL2}" loop="{URL3}" volume="{URL4}" cover="{URL7}"></meting-js></div>'
             );
 	        $config->BBCodes->addCustom(
